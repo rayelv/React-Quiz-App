@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 24px;
+  color: #7851a9;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input Fields */
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d8b9c3;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Button */
+button {
+  background-color: #99c1b9;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7851a9;
+}
+
+/* Radio Buttons */
+label {
+  display: flex;
+  align-items:center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  accent-color: #99c1b9;
+}
+
+/* Result Section */
+.result {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.correct {
+  color: #5dbea3;
+}
+
+.incorrect {
+  color: #e07a5f;
+}
